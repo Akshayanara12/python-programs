@@ -1,0 +1,10 @@
+str1=input("enter any string:") 
+vow="AaEeIiOoUu" 
+print("vowels in the entered string:") 
+for i in str1:
+    if i in vow:
+        print(i)
+print("consonants in the entered string:")
+for i in str1:
+    if i not in vow:
+        print(i)
