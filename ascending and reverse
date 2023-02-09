@@ -1,0 +1,6 @@
+str1=input("enter the string:")
+str2=str1.upper()
+str3=sorted(str2)
+print("normal order",*str3)
+str4=str3[::-1]
+print("reverse order",str4)
