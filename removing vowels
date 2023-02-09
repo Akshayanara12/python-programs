@@ -1,0 +1,9 @@
+str1=input("enter the string:")
+vow="AaEeIiOoUu"
+newstr1=""
+for i in range(len(str1)):
+    if str1[i] not in vow:
+        newstr1=newstr1+str1[i]
+print("string after removing vowels:")
+str1=newstr1
+print(str1)
