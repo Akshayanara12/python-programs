@@ -1,0 +1,11 @@
+str1=input("enter characther")
+vowels=0
+consonants=0
+vow="AaEeIiOoUu"
+for i in range(len(str1)):
+    if(str1[i] in vow):
+        vowels=vowels+1
+    else:
+        consonants=consonants+1
+print("consonants are",consonants)
+print("vowels are",vowels)
