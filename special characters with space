@@ -1,0 +1,16 @@
+a=input("enter the char:")
+special=digits=alphabets=space=0
+for i in range(len(a)):
+    if(a[i].isalpha()):
+        alphabets=alphabets+1
+    elif(a[i].isdigit()):
+        digits=digits+1
+    elif(a[i]==""):
+        space=space+1
+    else:
+        special=special+1
+        print(a[i])
+        print("\t")
+print("spaces are:",space)
+print("special characters are:",special)
+
