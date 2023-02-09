@@ -1,0 +1,9 @@
+str1=input("enter the string:")
+a=input("enter the first character to remove:")
+b=input("enter the second character to remove:")
+newstr1=""
+print("the string before removal:",str1)
+for i in range(len(str1)):
+    if str1[i] not in a and str1[i] not in b:
+        newstr1=newstr1+str1[i]
+print("the string after removal:",newstr1)
