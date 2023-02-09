@@ -1,0 +1,11 @@
+s1=input("enter str1:")
+s2=input("enter str2:")
+s3=list(s1.split(" "))
+s4=list(s2.split(" "))
+for i in s3:
+    for j in s4:
+        if i==j:
+            s3.remove(i)
+            s4.remove(j)
+print(s3)
+print(s4)
