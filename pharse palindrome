@@ -1,0 +1,22 @@
+str1=input("enter the string : ")
+str2=str1.lower()
+s=0
+d=0
+spl=0
+alpha=[]
+for i in range(len(str2)):
+    if str2[i].isdigit():
+        d+=1
+    elif str2[i].isspace():
+        s+=1
+    elif str2[i].isalpha():
+        alpha.append(str2[i])
+    else:
+        spl+=1
+for j in range(len(alpha)):
+    str3=alpha[::-1]
+if(str3==alpha):
+    print("it is pallindrome")
+else:
+    print("not palindrome")
+print(*str3)
