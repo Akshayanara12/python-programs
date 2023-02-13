@@ -1,0 +1,16 @@
+a=input("Enter a binary number:")
+b=input("Enter a binary number:")
+c=input("Enter a binary number:")
+d1=int(a,2)
+d2=int(b,2)
+d3=int(c,2)
+print(d1)
+print(d2)
+print(d3)
+if(d1>d2 and d1>d3):
+        print(a, " is the largest binary number")
+elif(d2>d1 and d2>d3):
+        print(b," is the largest binary number")
+else:
+        print(c, " is the largest binary number")
+
