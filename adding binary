@@ -1,0 +1,10 @@
+a=input("Enter the first binary number:")
+b=input("Enter the secind binary number:")
+d1=int(a,2)
+d2=int(b,2)
+print("The decimal value of the first binary number is: ",d1)
+print("The decimal value of the second binary number is: ",d2)
+d=d1+d2
+d3=bin(d1+d2)
+print("The Decimal sum of the two binary value is: ",d)
+print("The Binary sum of the two binary value is: ",d3[2:]
